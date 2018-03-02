@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Template</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <link rel="stylesheet" href="../css/celender.css">
+  <link rel="icon" href="../favicon.png" type="image/png">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+  <header><!-- start header -->
+    <div class="main-menu"> <!-- главное меню -->
+      <div class="container">
+        <nav class="navbar row">
+          <div class="col col-10">
+          <ul class="row">
+            <li class="logo col col-3"><a href="#"><img src="../img/logo.svg"></a></li>
+            <li class="nav-item col col-2"><a href="#">О системе</a></li>
+            <li class="nav-item col col-2"><a href="#">Поддержка</a></li>
+            <li class="social col col-2">
+              <div><a href="#"><img src="../img/github.svg"></a></div>
+              <div><a href="#"><img src="../img/vk.svg"></a></div>
+            </li>
+            <li class="profile col col-3">
+              <div class="avatar-hello">
+                <div class="avatar-image"><img src="../img/1d.png"></div>
+                <div><p style="margin: 0;">Hi, Tom!<br>
+                  <a href="#">Log Out</a></p></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        </nav>
+      </div>
+    </div>
+  </header><!-- end header -->
+  <div class="celender">
+    <div class="mounth-ttl">Февраль 2018</div>
+    <div class="date-search"><span>Год:</span><input type="text"><span>Месяц:</span><input type="text"><div class="arrows"></div></div>
+    <div class="celender-block">
+      <div class="day">
+        <div class="date"><span>1<br>пн</span></div>
+      </div>
+      <div class="day">
+        <div class="date"><span>2<br>вт</span></div>
+        </div>
+      <div class="day">
+        <div class="date"><span>3<br>ср</span></div>
+      </div>
+      <div class="day">
+        <div class="date"><span>4<br>чт</span></div>
+
+      </div>
+      <div class="day">
+        <div class="date"><span>5<br>пт</span></div>
+        </div>
+      <div class="day">
+        <div class="date"><span>6<br>сб</span></div>
+      </div>
+      <div class="day">
+        <div class="date"><span>7<br>вс</span></div>
+      </div>
+      <div class="day">
+        <div class="date"><span>8<br>пн</span></div>
+        </div>
+      <div class="day">
+        <div class="date"><span>9<br>вт</span></div>
+      </div>
+      <div class="day">
+        <div class="date"><span>10<br>ср</span></div>
+        <div class="event">
+          <div class="add-event-cel" onclick="openCel()""></div>
+        </div>
+        <div id="myNav" class="overlay">
+        <div class="enter-block">
+          <div class="event-ttl">Событие 10.02.2018</div>
+          <div class="close-btn" onclick="closeCel()">X</div>
+          <div class="add-event-ttl">
+            <span>Название:</span><br><input type="text">
+          </div>
+          <div class="add-event-ttl">
+            <span>Описание:</span><br><textarea name="" ></textarea>
+          </div>  
+          <div class="buttns-event">
+          <div class="add-event-butt "><div class="plus"></div></div>
+          <div class="add-event-butt purp-butt"><div class="right-arrow"></div></div>
+          <div class="add-event-butt red-butt"><div class="minus"></div></div></div>          
+        </div>
+    </div>
+      </div>
+      <div class="day">
+        <div class="date"><span>11<br>чт</span></div>
+      </div>
+      <div class="day">
+        <div class="date"><span>12<br>пт</span></div>
+      </div>
+      <div class="day">
+        <div class="date"><span>13<br>сб</span></div>
+      </div>
+      <div class="day">
+        <div class="date"><span>14<br>вс</span></div>
+        </div>
+      <div class="day">
+        <div class="date"><span>15<br>пн</span></div>
+      </div>
+      <div class="day">
+        <div class="date"><span>16<br>вт</span></div>
+        </div>
+      <div class="day">
+        <div class="date"><span>17<br>ср</span></div>
+      </div>
+      <div class="day">
+        <div class="date"><span>18<br>чт</span></div>
+      </div>
+      <div class="day">
+        <div class="date"><span>19<br>пт</span></div>
+        </div>
+      <div class="day">
+        <div class="date"><span>20<br>сб</span></div>
+      </div>
+      <div class="day">
+        <div class="date"><span>21<br>вс</span></div>
+      </div>
+      <div class="day">
+        <div class="date"><span>22<br>пн</span></div>
+      </div>
+      <div class="day">
+        <div class="date"><span>23<br>вт</span></div>
+        </div>
+      <div class="day">
+        <div class="date"><span>24<br>ср</span></div>
+      </div>
+      <div class="day">
+        <div class="date"><span>25<br>чт</span></div>
+      </div>
+      <div class="day">
+        <div class="date"><span>26<br>пт</span></div>
+      </div>
+      <div class="day">
+        <div class="date"><span>27<br>сб</span></div>
+      </div>
+      <div class="day">
+        <div class="date"><span>28<br>вс</span></div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <footer><!-- start footer -->
+    <div class="container"> 
+      Copyright (c) Just for Bonch 2018
+    </div>
+  </footer><!-- end footer -->
+    
+  </div>
+<script data-rocketsrc="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="js/script.js"></script>
+<script src="../js/celender.js"></script>
+</body>
+</html>
