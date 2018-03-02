@@ -5,5 +5,4 @@
   </footer><!-- end footer -->
     
   </div>
-<script data-rocketsrc="https://cdn.jsdelivr.net/npm/vue"></script>
 <script src="js/script.js"></script>
