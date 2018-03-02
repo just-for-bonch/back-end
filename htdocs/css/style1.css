@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Rubik', sans-serif;
+	color: #000;
+	background: #f0f4f5;
+}
+
+header{
+	width: 100%;
+	height:70px;
+	background-color: #51176c; 
+	color: #fff;
+}
+
+.head{
+	width: 960px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.logo{
+	margin-top: 5px;
+	float: left;
+}
+
+.logo img{
+	width: 130px;
+	height: auto;
+}
+
+.menu{
+	float: right;
+}
+
+.menu ul{
+	list-style: none;
+	margin: 0px;
+}
+
+.menu ul li{
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 25px;
+}
+
+.hello{
+	color: #fff;
+	width: 100%;
+	height: 260px;
+	background: radial-gradient(at top, #190522, #360f48);
+}
+
+.hello-block{
+	width: 960px;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.hello-massage{
+	width: 40%;
+	float: left;
+
+}
+
+.hello-img{
+	width: 55%;
+	float: right;
+}
+
+.hello-img img{
+	width: 100%;
+	height: 100%;
+}
+
+.ttl-hello{
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 35px;
+}
+
+.text-hello{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.buttons{
+	padding: 0 20px;
+	height: 50px;
+	line-height: 50px;
+	background: #743e8d;
+	display: inline-block;
+	text-align: center;
+    border-radius: 2px;
+    color: #defff8;
+}
+
+.register-butt{
+	background: #ecc400;
+	border: 1px solid #d2af02;
+}
+
+.buttons:hover{
+	background: #67377e;
+    color: #fff;
+}
+
+.register-butt:hover{
+	background: #67377e	;
+	border: 1px solid #67377e;
+}
+
+.hello-massage span{
+	margin: 0 15px;
+}
+
+.page-align{
+	width: 960px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+.page-align-last{
+	width: 960px;
+	height: 20px;
+	margin: 0 auto;
+}
+
+.heading {
+    font: 24px Arial, Tahoma, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #819d9e;
+    line-height: 22px;
+    margin: 35px 0 15px 0;
+    position: relative;
+    border-bottom: 0;
+}
+
+.heading-last {
+    font-weight: bold;
+    color: #819d9e;
+    margin: 35px 0 15px 0;
+    position: relative;
+    border-bottom: 0;
+}
+
+.heading:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid #2a1435;
+    position: absolute;
+    top: 10px;
+}
+
+.heading-last:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid #2a1435;
+    position: absolute;
+    top: 10px;
+}
+
+.heading span {
+	color: #2a1435;
+    padding: 0 25px 0 13px;
+    background: #f0f4f5;
+    position: relative;
+    left: 34px;
+}
+
+.features{
+	width: 960px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+.features-block{
+	width: 190px;
+	float: left;
+	margin: 0 25px;
+}
+
+.achive{
+	width: 110px;
+	height: 136px;
+	margin: 0 auto;
+	background: url(../img/achiv.png) no-repeat;
+	background-size: 100% auto;
+}
+
+.lk{
+	width: 110px;
+	height: 136px;
+	margin: 0 auto;
+	background: url(../img/lk.png) no-repeat;
+	background-size: 100% auto;
+}
+
+.celen{
+	width: 110px;
+	height: 136px;
+	margin: 0 auto;
+	background: url(../img/celen.png) no-repeat;
+	background-size: 100% auto;
+}
+
+.note{
+	width: 110px;
+	height: 136px;
+	margin: 0 auto;
+	background: url(../img/note.png) no-repeat;
+	background-size: 100% auto;
+}
+
+.features-ttl{
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 15px 0;
+	color: #5c5f62;
+	min-height: 44px;
+
+}
+
+.features-ttl-help{
+	line-height: 2.5;
+}
+
+.features-info{
+	line-height: 2;
+	color: #838689;
+	text-align: center;
+	margin-bottom: 15px;
+	line-height: 1.4;
+}
+
+.u-ttl{
+	color: #5C5F62;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.u_all span {
+    width: 35px;
+    display: block;
+    float: left;
+    text-align: center;
+    line-height: 60px;
+    background: #d4e9ea;
+    color: #819d9e;
+    font-size: 36px;
+    font-weight: bold;
+    border-radius: 2px;
+    margin-right: 4.5px;
+}
+
+footer{
+	width: 960px;
+	margin: 0 auto;
+	color: #2a1435;
+	text-align: center;
+	font-size: 12px;
+
+}
+
+footer p{
+	margin: 0;
+	padding: 0;
+}
+
+.butt-block{
+	text-align: center;
+}
+
+.butt-block a{
+	text-decoration: none;
+}
+
+.reg-butt{
+	color: #000;
+	padding: 10px 15px;
+	border: 1px solid #000;
+	display: inline-block;
+	border-radius: 3px;
+	outline: none;
+	background: none;
+}
+
+.reg-butt:hover{
+	background: #51176c;
+	border: 1px solid #51176c;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.3s;
+	position: relative;
+}
+
+
+.reg-butt-active{
+	padding: 10px 15px;
+	background: #51176c;
+	border: 1px solid #51176c;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.3s;
+	position: relative;
+	border-radius: 3px;
+}
+
+.auth-log{
+	margin-top: 20px;
+	position: relative;
+	left: 250px;
+}
+
+
+.auth-log input {
+	width: 300px;
+    height: 45px;
+    border: 0px;
+    border-bottom: 2px solid #51176c;
+    border-radius: 0px;
+    box-shadow: none;
+    font-size: 18px;
+    padding: 0;
+    outline: none;
+}
+
+
+
+
+
+.auth-pass input {
+	width: 300px;
+    height: 45px;
+    border: 0px;
+    border-bottom: 2px solid #51176c;
+    border-radius: 0px;
+    box-shadow: none;
+    font-size: 18px;
+    padding: 0;
+    outline: none;
+}
+
+.overlay {
+    height: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(81,23,108);
+    background-color: rgba(81,23,108, 0.8);
+    overflow-x: hidden;
+    transition: 0.5s;
+    overflow-y: hidden;
+}
+
+.enter-block{
+	width: 400px;
+	height: 500px;
+	background: #fff;
+	margin: 0 auto;
+	margin-top: 150px;
+	border-radius: 5px;
+}
+
+.enter-ttl{
+	float: left;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.close-btn{
+	font-weight: bold;
+	font-size: 20px;
+	float: right;
+	margin-right: 15px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.enter-massage{
+	width: 380px;
+	clear: both;
+	margin: 0 auto;
+	font-size: 22px;
+	margin-top: 10px;
+	font-weight: bold;
+	position: relative;
+	top: 10px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.info-massage{
+	width: 320px;
+	margin: 0 auto;
+	color: #51176c;
+}
+
+.error-comp{
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.error-butt{
+	float: right;
+	padding: 10px 15px;
+	border-radius: 10px;
+	background: #51176c;
+	color: #fff;
+	margin-top: 10px;
+	margin-right: 15px;
+}
+
+.enter{
+	cursor: pointer;
+}
