@@ -4,13 +4,13 @@
 
 <div class="desk-align">
     <div class="tab">
-      <button class="tablinks" onclick="openCity(event, 'Vacant')">Вакантные</button>
+      <button class="tablinks active" onclick="openCity(event, 'Vacant')">Вакантные</button>
       <button class="tablinks" onclick="openCity(event, 'Solved')">Решаемые</button>
       <button class="tablinks" onclick="openCity(event, 'Created')">Созданные</button>
   </div>
 
   <!-- Tab content -->
-  <div id="Vacant" class="tabcontent">
+  <div id="Vacant" class="tabcontent" style="display: block;">
       <div class="tasks">
           <h3>Рабочие задания</h3>
           <div class="block-tasks">
@@ -134,19 +134,19 @@
           <div class="block-tasks">
               <div class="task">
                   <div class="ttl-task">Название</div>
-                  <div class="caller">Заказчик ФИО</div>
+                  <div class="caller">Исполнитель ФИО</div>
                   <div class="description">Описание: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quam, non repellendus sint voluptas, deleniti animi. Pariatur vero enim nisi.</div>
                   <div class="reward">Нагнада: печеньки</div>
               </div>
               <div class="task">
                   <div class="ttl-task">Название</div>
-                  <div class="caller">Заказчик ФИО</div>
+                  <div class="caller">Исполнитель ФИО</div>
                   <div class="description">Описание: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quam, non repellendus sint voluptas, deleniti animi. Pariatur vero enim nisi.</div>
                   <div class="reward">Нагнада: печеньки</div>
               </div>
               <div class="task">
                   <div class="ttl-task">Название</div>
-                  <div class="caller">Заказчик ФИО</div>
+                  <div class="caller">Исполнитель ФИО</div>
                   <div class="description">Описание: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quam, non repellendus sint voluptas, deleniti animi. Pariatur vero enim nisi.</div>
                   <div class="reward">Нагнада: печеньки</div>
               </div>
@@ -157,19 +157,19 @@
           <div class="block-tasks">
               <div class="task">
                   <div class="ttl-task">Название</div>
-                  <div class="caller">Заказчик ФИО</div>
+                  <div class="caller">Исполнитель ФИО</div>
                   <div class="description">Описание: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quam, non repellendus sint voluptas, deleniti animi. Pariatur vero enim nisi.</div>
                   <div class="reward">Нагнада: печеньки</div>
               </div>
               <div class="task">
                   <div class="ttl-task">Название</div>
-                  <div class="caller">Заказчик ФИО</div>
+                  <div class="caller">Исполнитель ФИО</div>
                   <div class="description">Описание: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quam, non repellendus sint voluptas, deleniti animi. Pariatur vero enim nisi.</div>
                   <div class="reward">Нагнада: печеньки</div>
               </div>
               <div class="task">
                   <div class="ttl-task">Название</div>
-                  <div class="caller">Заказчик ФИО</div>
+                  <div class="caller">Исполнитель ФИО</div>
                   <div class="description">Описание: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quam, non repellendus sint voluptas, deleniti animi. Pariatur vero enim nisi.</div>
                   <div class="reward">Нагнада: печеньки</div>
               </div>

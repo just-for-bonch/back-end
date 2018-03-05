@@ -4,26 +4,37 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Главная страница</title>
-	<link rel="stylesheet" href="css/style1.css">	
+	<link rel="stylesheet" href="css/style.css">	
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body onload="<?php  if (isset($_GET['err'])) echo 'openNav()';?>">
-	<header>
+	<div class="header">
 		<div class="head">
-			<div class="logo"><a href=""><img src="img/logo.png" alt=""></a></div>
+			<div class="logo"><a href="index.php"><img src="img/logo.png" alt=""></a></div>
 			<div class="menu">
 				<ul>
 					<li>Главная</li>
 					<li>О системе</li>
 					<li>Поддержка</li>
 
-					<li class="enter" <?php if (isset($_GET['err'])) echo "><a style='color:white;' href=\"php/logout.php\"> Выход"; else echo "><a style='color:white;' href=\"auth.php\">Вход"?>
+					<li class="enter" <?php 
+					if (isset($_GET['err'])) echo "><a style='color:white;' href=\"php/logout.php\"> Выход"; 
+						else
+						{
+					if (isset($_SESSION['id_group']))
+					{
+					if ($_SESSION['id_group']==1) echo "><a style='color:white;' href=\"/user-pages/profile_user.php\">Личный кабинет"; 
+					if ($_SESSION['id_group']==2)echo "><a style='color:white;' href=\"/hr-pages/profile_hr.php\">Личный кабинет";
+					}
+						else echo "><a style='color:white;' href=\"auth.php\">Вход";
+						}
+						?>
 						</a>
 					</li>
 				</ul>
 			</div>
 		</div>
-	</header>
+	</div>
 	<div class="hello">
 		<div class="hello-block">
 			<div class="hello-massage">
@@ -70,10 +81,10 @@
 	<div class="page-align-last">
 		<div class="heading-last"></div>
 	</div>
-	<footer>
+	<div class="footer-main">
 		<p>Пользуясь данным сайтом вы принимаете условия предоставления услуг и обязуетесь их не нарушать.</p>
 		<p>2018</p>
-	</footer>
+	</div>
 	<div id="myNav" class="overlay">
         <div class="enter-block">
         	<div class="enter-ttl">Вход</div>

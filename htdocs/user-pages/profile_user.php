@@ -106,6 +106,6 @@
     </div><!-- end row -->
   </div><!-- end main content -->
 
-<?php include( '../footer.php' ); ?>
+<?php include( '../footer.php' );?>
 </body>
 </html>

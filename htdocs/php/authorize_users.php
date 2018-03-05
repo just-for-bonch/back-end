@@ -45,6 +45,7 @@ if (empty($myrow['pass']))
                 $_SESSION['imy']=$myrow['imy_emp'];
                 $_SESSION['fam']=$myrow['fam_emp'];
                 $_SESSION['about']=$myrow['about_emp'];
+                $_SESSION['date']=$myrow['data_emp'];
                 if ($_SESSION['id_group']==2)
                 header('Location: ../hr-pages/profile_hr.php');
                 if ($_SESSION['id_group']==1)

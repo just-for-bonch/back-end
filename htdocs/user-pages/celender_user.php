@@ -49,7 +49,7 @@
         </div>
         <div id="myNav" class="overlay">
         <div class="enter-block">
-          <div class="event-ttl">1.02.2018</div>
+          <div class="event-ttl">10.02.2018</div>
           <div class="close-btn" onclick="closeCel()">X</div>
           <div class="event-massage">
             "Форум труда"
